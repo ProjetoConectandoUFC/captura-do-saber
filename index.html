@@ -1,13 +1,24 @@
+<!-- Declara o tipo do documento como HTML5, informando ao navegador o padrão atual -->
 <!doctype html>
+
+<!-- Tag raiz da página, definindo o idioma principal como inglês ("en") -->
 <html lang="en">
   <head>
+    <!-- Define a codificação de caracteres como UTF-8 (permite acentos, ç e emojis corretamente) -->
     <meta charset="UTF-8" />
+    
+    <!-- Configura a escala da página para dispositivos móveis (responsividade para celulares e tablets) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Título que aparece na aba do navegador -->
     <title>My Google AI Studio App</title>
   </head>
+  
   <body>
+    <!-- Elemento vazio com o ID "root". É aqui que o React injeta e constrói todo o seu aplicativo -->
     <div id="root"></div>
+
+    <!-- Importa o arquivo principal em TypeScript/JavaScript (ponto de entrada da aplicação React) como um módulo -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
